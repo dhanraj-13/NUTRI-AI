@@ -1,0 +1,5 @@
+NUTRITION_LOG_ADDED = "nutrition_log_added"
+HYDRATION_UPDATED = "hydration_updated"
+ANALYTICS_UPDATED = "analytics_updated"
+RECOMMENDATION_GENERATED = "recommendation_generated"
+HEARTBEAT = "heartbeat"

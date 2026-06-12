@@ -1,0 +1,2 @@
+﻿# trend_analysis module
+

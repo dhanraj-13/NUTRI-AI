@@ -1,0 +1,107 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id              String             @id @default(cuid())
+  name            String
+  email           String             @unique
+  password        String
+  logs            NutritionLog[]
+  recommendations AIRecommendation[]
+  analytics       Analytics[]
+  createdAt       DateTime           @default(now())
+  updatedAt       DateTime           @updatedAt
+}
+
+model NutritionFood {
+  id             String   @id @default(cuid())
+  foodName       String   @unique
+  calories       Float
+  protein        Float
+  carbs          Float
+  fats           Float
+  fiber          Float
+  servingSize    String
+  foodCategory   String
+  mealType       String
+  dietType       String
+  hydrationScore Float
+  satietyScore   Float
+  healthBenefits String
+  imagePath      String
+  logs           NutritionLog[]
+  createdAt      DateTime @default(now())
+
+  @@index([mealType])
+  @@index([dietType])
+  @@index([foodCategory])
+  @@index([calories])
+  @@index([protein])
+}
+
+model NutritionLog {
+  id             String   @id @default(cuid())
+  userId         String
+  foodId         String
+  quantity       Float
+  mealType       String
+  consumedAt     DateTime
+  hydrationMl    Int      @default(0)
+  totalCalories  Float
+  totalProtein   Float
+  totalCarbs     Float
+  totalFats      Float
+  notes          String?
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  food NutritionFood @relation(fields: [foodId], references: [id], onDelete: Restrict)
+
+  @@index([userId, consumedAt])
+  @@index([foodId])
+}
+
+model AIRecommendation {
+  id                 String   @id @default(cuid())
+  userId             String
+  recommendationType String
+  title              String
+  summary            String
+  foodIds            String[]
+  meta               Json
+  createdAt          DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, createdAt])
+  @@index([recommendationType])
+}
+
+model Analytics {
+  id                       String   @id @default(cuid())
+  userId                   String
+  trackedDate              DateTime
+  caloriesTotal            Float
+  proteinTotal             Float
+  carbsTotal               Float
+  fatsTotal                Float
+  hydrationTotalMl         Int
+  hydrationScore           Float
+  nutritionScore           Float
+  productivityNutritionScore Float
+  consistencyScore         Float
+  createdAt                DateTime @default(now())
+  updatedAt                DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, trackedDate])
+  @@index([userId, trackedDate])
+}

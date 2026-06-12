@@ -1,0 +1,147 @@
+food_id,food_name,calories,protein,carbs,fats,fiber,serving_size,food_category,diet_type,meal_type,health_benefits
+F001,Idli,58,2.0,12.0,0.4,0.8,1 piece (40g),South Indian Foods,vegetarian,Breakfast,"light, fermented, easy digestion"
+F002,Dosa,133,3.0,18.0,5.0,1.0,1 plain dosa (70g),South Indian Foods,vegetarian,Breakfast,"energy, fermented batter benefits"
+F003,Rava Dosa,170,4.0,24.0,6.0,1.2,1 piece (80g),South Indian Foods,vegetarian,Breakfast,quick energy and satiety
+F004,Uttapam,190,5.5,28.0,6.0,2.0,1 medium (100g),South Indian Foods,vegetarian,Breakfast,balanced carbs with veggies
+F005,Ven Pongal,210,6.0,30.0,7.0,2.0,1 cup (180g),South Indian Foods,vegetarian,Breakfast,comfort food and sustained energy
+F006,Upma,220,5.0,34.0,7.0,2.5,1 cup (180g),South Indian Foods,vegetarian,Breakfast,steady energy for mornings
+F007,Poha,180,4.0,30.0,5.0,2.0,1 cup (160g),Breakfast,vegetarian,Breakfast,light and quick digesting
+F008,Pesarattu,160,9.0,22.0,4.0,3.0,1 piece (90g),South Indian Foods,vegan,Breakfast,protein-rich from green gram
+F009,Appam,120,2.5,22.0,2.0,0.7,1 piece (60g),South Indian Foods,vegetarian,Breakfast,fermented and light
+F010,Adai,210,8.0,28.0,7.0,4.0,1 piece (90g),South Indian Foods,vegan,Breakfast,high-protein lentil dosa
+F011,Chapati,110,3.5,20.0,1.8,3.0,1 piece (40g),Indian Home Foods,vegetarian,Lunch,whole wheat fiber support
+F012,Phulka,80,2.8,16.0,0.8,2.2,1 piece (30g),Indian Home Foods,vegetarian,Dinner,light dinner carb option
+F013,Brown Rice,216,5.0,45.0,1.8,3.5,1 cup cooked (195g),Indian Home Foods,vegan,Lunch,complex carbs and fiber
+F014,White Rice,205,4.0,45.0,0.4,0.6,1 cup cooked (186g),Indian Home Foods,vegan,Lunch,easy-to-digest staple energy
+F015,Jeera Rice,230,4.2,40.0,6.0,1.0,1 cup (180g),Indian Home Foods,vegetarian,Lunch,flavorful staple with digestion support
+F016,Lemon Rice,240,4.0,42.0,6.5,1.8,1 cup (180g),Indian Home Foods,vegan,Lunch,quick energy and appetite support
+F017,Curd Rice,260,6.5,36.0,9.0,1.2,1 cup (200g),South Indian Foods,vegetarian,Lunch,cooling and gut-friendly
+F018,Sambar Rice,280,8.0,44.0,8.0,4.0,1 cup (220g),South Indian Foods,vegetarian,Lunch,lentil protein plus vegetables
+F019,Vegetable Khichdi,250,8.0,38.0,7.0,5.0,1 cup (220g),Indian Home Foods,vegetarian,Dinner,easy digestion and balanced meal
+F020,Dal Tadka,180,9.0,20.0,6.0,5.0,1 cup (180g),Indian Home Foods,vegetarian,Lunch,protein and fiber support
+F021,Moong Dal,160,10.0,22.0,2.0,5.0,1 cup (180g),Protein Foods,vegan,Lunch,lean plant protein
+F022,Toor Dal,190,10.0,28.0,3.0,6.0,1 cup (180g),Protein Foods,vegan,Lunch,protein and sustained energy
+F023,Rajma Curry,230,11.0,33.0,6.0,8.0,1 cup (200g),Protein Foods,vegan,Lunch,high fiber and satiety
+F024,Chole,260,11.0,35.0,8.0,9.0,1 cup (200g),Protein Foods,vegan,Lunch,protein and iron-rich
+F025,Paneer Bhurji,280,16.0,8.0,20.0,1.0,1 cup (180g),Protein Foods,vegetarian,Dinner,high-protein vegetarian option
+F026,Paneer Tikka,240,20.0,7.0,14.0,1.5,1 plate (150g),Protein Foods,vegetarian,Dinner,protein for muscle recovery
+F027,Boiled Egg,78,6.3,0.6,5.3,0.0,1 egg (50g),Protein Foods,eggetarian,Breakfast,complete protein and satiety
+F028,Egg Omelette,155,10.0,2.0,12.0,0.2,2 egg omelette (100g),Protein Foods,eggetarian,Breakfast,protein-rich start for focus
+F029,Scrambled Eggs,180,12.0,3.0,13.0,0.2,1 serving (110g),Protein Foods,eggetarian,Breakfast,quick protein for energy
+F030,Chicken Breast Grilled,165,31.0,0.0,3.6,0.0,100g,Protein Foods,non_vegetarian,Lunch,lean protein for muscle support
+F031,Chicken Curry Home Style,240,22.0,6.0,14.0,1.0,1 cup (180g),Indian Home Foods,non_vegetarian,Lunch,protein and recovery support
+F032,Fish Curry,220,22.0,5.0,12.0,1.0,1 cup (180g),Indian Home Foods,non_vegetarian,Dinner,omega-3 and recovery benefits
+F033,Grilled Fish,190,24.0,0.0,10.0,0.0,100g,Protein Foods,non_vegetarian,Dinner,high protein and healthy fats
+F034,Sprouts Salad,140,9.0,22.0,2.0,6.0,1 bowl (150g),Fitness Meals,vegan,Snacks,fiber and plant protein
+F035,Peanut Sundal,190,8.0,14.0,11.0,4.0,1 cup (130g),Snacks,vegan,Snacks,protein-rich evening snack
+F036,Chana Sundal,170,9.0,24.0,4.0,6.0,1 cup (130g),Snacks,vegan,Snacks,high satiety protein snack
+F037,Roasted Chana,120,6.0,18.0,2.0,5.0,30g,Healthy snacks,vegan,Snacks,portable protein and fiber
+F038,Peanuts Roasted,170,7.0,6.0,14.0,2.5,30g,Healthy snacks,vegan,Snacks,healthy fats and satiety
+F039,Almonds,174,6.0,6.0,15.0,3.5,28g,Healthy snacks,vegan,Snacks,healthy fats for brain function
+F040,Walnuts,185,4.0,4.0,18.0,2.0,28g,Healthy snacks,vegan,Snacks,omega-3 for focus support
+F041,Cashews,157,5.0,9.0,12.0,1.0,28g,Healthy snacks,vegan,Snacks,energy-dense healthy fat
+F042,Pistachios,160,6.0,8.0,13.0,3.0,28g,Healthy snacks,vegan,Snacks,protein + fat satiety combo
+F043,Dates,66,0.4,18.0,0.1,1.6,1 piece (24g),Snacks,vegan,Snacks,quick natural energy
+F044,Raisins,85,1.0,22.0,0.1,1.0,30g,Snacks,vegan,Snacks,instant carb energy
+F045,Banana,105,1.3,27.0,0.4,3.1,1 medium (118g),Fruits,vegan,Snacks,potassium and quick energy
+F046,Apple,95,0.5,25.0,0.3,4.4,1 medium (182g),Fruits,vegan,Snacks,fiber and gut support
+F047,Orange,62,1.2,15.0,0.2,3.0,1 medium (130g),Fruits,vegan,Snacks,vitamin C and hydration
+F048,Guava,68,2.6,14.0,1.0,5.4,100g,Fruits,vegan,Snacks,high fiber and vitamin C
+F049,Papaya,55,0.9,14.0,0.2,2.3,1 cup (140g),Fruits,vegan,Breakfast,digestion and hydration support
+F050,Pomegranate,83,1.7,19.0,1.2,4.0,100g,Fruits,vegan,Snacks,antioxidant-rich focus support
+F051,Watermelon,46,0.9,11.0,0.2,0.6,1 cup (154g),Hydration foods,vegan,Snacks,high hydration food
+F052,Muskmelon,53,1.3,13.0,0.3,1.4,1 cup (156g),Hydration foods,vegan,Snacks,cooling hydration fruit
+F053,Mango,99,1.4,25.0,0.6,2.6,1 cup (165g),Fruits,vegan,Snacks,energy and micronutrient support
+F054,Pear,101,0.6,27.0,0.2,5.5,1 medium (178g),Fruits,vegan,Snacks,fiber-rich steady energy
+F055,Pineapple,82,0.9,22.0,0.2,2.3,1 cup (165g),Fruits,vegan,Snacks,digestive enzyme support
+F056,Grapes,104,1.1,27.0,0.2,1.4,1 cup (151g),Fruits,vegan,Snacks,quick energy and antioxidants
+F057,Cucumber,16,0.7,3.8,0.1,0.5,100g,Vegetables,vegan,Snacks,hydration and low-calorie
+F058,Tomato,18,0.9,3.9,0.2,1.2,100g,Vegetables,vegan,Lunch,antioxidants and freshness
+F059,Carrot,41,0.9,10.0,0.2,2.8,100g,Vegetables,vegan,Lunch,beta-carotene for wellness
+F060,Beetroot,43,1.6,10.0,0.2,2.8,100g,Vegetables,vegan,Lunch,nitrate support for stamina
+F061,Spinach,23,2.9,3.6,0.4,2.2,100g,Vegetables,vegan,Lunch,iron and folate support
+F062,Cabbage,25,1.3,6.0,0.1,2.5,100g,Vegetables,vegan,Lunch,fiber for gut health
+F063,Cauliflower,25,1.9,5.0,0.3,2.0,100g,Vegetables,vegan,Lunch,low-calorie meal volume
+F064,Broccoli,34,2.8,7.0,0.4,2.6,100g,Vegetables,vegan,Lunch,fiber and micronutrient rich
+F065,Bottle Gourd,14,0.6,3.4,0.1,0.6,100g,Vegetables,vegan,Dinner,light and hydrating
+F066,Ridge Gourd,20,0.8,4.4,0.3,1.1,100g,Vegetables,vegan,Dinner,easy digestion vegetable
+F067,Pumpkin,26,1.0,7.0,0.1,0.5,100g,Vegetables,vegan,Dinner,low calorie and vitamin A
+F068,Okra,33,1.9,7.5,0.2,3.2,100g,Vegetables,vegan,Lunch,fiber and gut-friendly
+F069,Brinjal,25,1.0,6.0,0.2,3.0,100g,Vegetables,vegan,Dinner,light vegetable curry base
+F070,Green Beans,31,1.8,7.0,0.1,3.4,100g,Vegetables,vegan,Lunch,fiber and low calories
+F071,Mushroom,22,3.1,3.3,0.3,1.0,100g,Vegetables,vegetarian,Dinner,low-calorie protein support
+F072,Onion,40,1.1,9.0,0.1,1.7,100g,Vegetables,vegan,Lunch,flavor and antioxidant support
+F073,Potato Boiled,87,1.9,20.0,0.1,1.8,100g,Vegetables,vegan,Lunch,affordable carb energy
+F074,Sweet Potato,86,1.6,20.0,0.1,3.0,100g,Fitness Meals,vegan,Snacks,complex carb for workouts
+F075,Oats Porridge,150,5.0,27.0,3.0,4.0,1 cup (234g),Breakfast,vegetarian,Breakfast,slow-release energy
+F076,Overnight Oats,220,8.0,35.0,6.0,6.0,1 jar (250g),Fitness Meals,vegetarian,Breakfast,fiber and satiety
+F077,Millet Porridge,170,5.0,31.0,3.0,3.5,1 cup (220g),Breakfast,vegan,Breakfast,stable energy and minerals
+F078,Ragi Porridge,180,5.5,32.0,3.5,4.0,1 cup (220g),South Indian Foods,vegetarian,Breakfast,calcium-rich grain option
+F079,Ragi Dosa,140,3.5,24.0,3.0,2.2,1 piece (70g),South Indian Foods,vegetarian,Breakfast,higher fiber dosa option
+F080,Whole Wheat Bread,80,3.5,14.0,1.0,2.0,1 slice (32g),Breakfast,vegetarian,Breakfast,quick complex carb
+F081,Peanut Butter Toast,190,8.0,16.0,11.0,3.0,1 slice (45g),Fitness Meals,vegetarian,Breakfast,energy + protein combo
+F082,Vegetable Sandwich,230,8.0,34.0,7.0,4.0,1 sandwich (180g),Snacks,vegetarian,Snacks,balanced portable meal
+F083,Paneer Sandwich,290,14.0,30.0,12.0,4.0,1 sandwich (200g),Fitness Meals,vegetarian,Lunch,higher protein meal option
+F084,Curd,98,5.0,7.0,4.0,0.0,100g,Healthy Drinks,vegetarian,Snacks,gut-friendly probiotic support
+F085,Buttermilk,40,2.0,4.5,1.5,0.0,1 glass (240ml),Healthy Drinks,vegetarian,Lunch,hydration and digestion
+F086,Milk,122,8.0,12.0,5.0,0.0,1 cup (240ml),Healthy Drinks,vegetarian,Breakfast,protein and calcium
+F087,Soy Milk,100,7.0,8.0,4.0,1.0,1 cup (240ml),Healthy Drinks,vegan,Breakfast,plant protein hydration
+F088,Lassi Unsweetened,120,6.0,10.0,6.0,0.0,1 glass (240ml),Healthy Drinks,vegetarian,Lunch,cooling and probiotic drink
+F089,Tender Coconut Water,45,0.5,9.0,0.2,0.0,1 glass (240ml),Hydration foods,vegan,Snacks,electrolyte hydration boost
+F090,Lemon Water,8,0.1,2.0,0.0,0.1,1 glass (240ml),Hydration foods,vegan,Breakfast,hydration and freshness
+F091,Jeera Water,5,0.2,1.0,0.1,0.1,1 glass (240ml),Hydration foods,vegan,Breakfast,digestion support hydration
+F092,Vegetable Soup,90,3.0,14.0,2.0,3.0,1 bowl (250ml),Healthy Drinks,vegan,Dinner,"light, hydrating, low-calorie"
+F093,Tomato Soup,80,2.0,12.0,2.0,2.0,1 bowl (250ml),Healthy Drinks,vegan,Dinner,light dinner with antioxidants
+F094,Chicken Soup,130,12.0,8.0,5.0,1.0,1 bowl (250ml),Healthy Drinks,non_vegetarian,Dinner,recovery and protein support
+F095,Moong Chilla,170,10.0,20.0,5.0,4.0,2 pieces (120g),Fitness Meals,vegan,Breakfast,high-protein breakfast
+F096,Besan Chilla,180,8.0,20.0,7.0,4.0,2 pieces (120g),Fitness Meals,vegan,Breakfast,protein-rich savory pancake
+F097,Paneer Salad,230,14.0,10.0,15.0,3.0,1 bowl (180g),Fitness Meals,vegetarian,Lunch,protein and micronutrient dense
+F098,Chicken Salad,260,24.0,10.0,12.0,3.0,1 bowl (200g),Fitness Meals,non_vegetarian,Lunch,lean protein + fiber combo
+F099,Fruit Salad,120,2.0,30.0,0.5,4.0,1 bowl (180g),Snacks,vegan,Snacks,natural energy and hydration
+F100,Veg Salad,90,3.0,12.0,3.0,4.0,1 bowl (180g),Snacks,vegan,Lunch,low-calorie nutrient density
+F101,Boiled Corn,96,3.4,21.0,1.5,2.4,100g,Snacks,vegan,Snacks,affordable energy snack
+F102,Corn Chaat,160,4.0,26.0,4.0,3.5,1 cup (150g),Healthy snacks,vegan,Snacks,fiber and satiety snack
+F103,Bhel Puri Home Style,170,4.0,30.0,4.0,3.0,1 cup (120g),Healthy snacks,vegan,Snacks,light evening snack
+F104,Roasted Makhana,110,4.0,14.0,4.0,1.5,25g,Healthy snacks,vegetarian,Snacks,low-calorie crunchy snack
+F105,Khakra,130,4.0,20.0,3.5,2.5,2 pieces (35g),Healthy snacks,vegetarian,Snacks,portable whole-grain snack
+F106,Multigrain Crackers,120,3.0,18.0,4.0,2.0,30g,Healthy snacks,vegetarian,Snacks,portion-controlled snack
+F107,Hummus,166,8.0,14.0,9.0,6.0,100g,Healthy snacks,vegan,Snacks,protein and healthy fats
+F108,Carrot Sticks,35,0.8,8.0,0.2,2.8,100g,Healthy snacks,vegan,Snacks,low-calorie crunch
+F109,Cucumber Slices,15,0.7,3.6,0.1,0.5,100g,Healthy snacks,vegan,Snacks,hydration snack
+F110,Banana Smoothie,220,8.0,36.0,5.0,3.0,1 glass (300ml),Healthy Drinks,vegetarian,Breakfast,energy and recovery
+F111,Mango Smoothie,240,7.0,40.0,5.0,2.5,1 glass (300ml),Healthy Drinks,vegetarian,Breakfast,calorie-dense energy
+F112,Protein Shake,180,24.0,8.0,4.0,1.0,1 glass (300ml),Fitness Meals,vegetarian,Snacks,muscle recovery support
+F113,Lassi Banana,210,8.0,32.0,6.0,2.0,1 glass (300ml),Healthy Drinks,vegetarian,Snacks,energy and probiotic support
+F114,Paneer Curry,300,15.0,12.0,22.0,2.0,1 cup (200g),Indian Home Foods,vegetarian,Dinner,protein-rich dinner option
+F115,Aloo Gobi,170,4.0,20.0,8.0,5.0,1 cup (180g),Indian Home Foods,vegan,Lunch,fiber and comfort food balance
+F116,Bhindi Masala,160,3.0,14.0,9.0,4.0,1 cup (170g),Indian Home Foods,vegan,Lunch,fiber-rich Indian side
+F117,Palak Paneer,260,14.0,10.0,18.0,3.0,1 cup (180g),Indian Home Foods,vegetarian,Dinner,iron + protein combination
+F118,Cabbage Poriyal,110,3.0,12.0,5.0,4.0,1 cup (160g),South Indian Foods,vegan,Lunch,fiber-rich home-style side
+F119,Beans Poriyal,120,4.0,12.0,6.0,4.0,1 cup (160g),South Indian Foods,vegan,Lunch,balanced vegetable side
+F120,Carrot Poriyal,115,2.0,14.0,5.0,3.0,1 cup (160g),South Indian Foods,vegan,Lunch,beta-carotene-rich side
+F121,Lemon Rasam,45,1.5,7.0,1.0,0.8,1 cup (180ml),South Indian Foods,vegan,Dinner,light digestive soup
+F122,Tomato Rasam,50,1.5,8.0,1.2,1.0,1 cup (180ml),South Indian Foods,vegan,Dinner,appetite and digestion support
+F123,Curd Oats,190,8.0,28.0,5.0,4.0,1 bowl (220g),Fitness Meals,vegetarian,Breakfast,gut-friendly sustained energy
+F124,Oats Upma,210,7.0,32.0,6.0,5.0,1 bowl (220g),Fitness Meals,vegetarian,Breakfast,fiber-rich breakfast option
+F125,Mixed Veg Curry,150,4.0,18.0,7.0,4.0,1 cup (180g),Indian Home Foods,vegan,Dinner,micronutrient-dense side
+F126,Chicken Stir Fry,220,24.0,8.0,10.0,2.0,1 plate (180g),Fitness Meals,non_vegetarian,Dinner,high protein low-carb meal
+F127,Paneer Stir Fry,240,16.0,10.0,16.0,3.0,1 plate (180g),Fitness Meals,vegetarian,Dinner,protein-rich low-carb option
+F128,Quinoa Veg Bowl,260,9.0,38.0,8.0,6.0,1 bowl (220g),Fitness Meals,vegan,Lunch,balanced modern fitness meal
+F129,Millet Veg Bowl,250,8.0,40.0,7.0,6.0,1 bowl (220g),Fitness Meals,vegan,Lunch,complex carbs for productivity
+F130,Boiled Sweet Corn Salad,140,4.0,24.0,3.0,3.0,1 bowl (170g),Snacks,vegan,Snacks,energy snack with fiber
+F131,Curd Fruit Bowl,180,6.0,28.0,4.0,3.5,1 bowl (200g),Snacks,vegetarian,Snacks,probiotic + fruit synergy
+F132,Peanut Chikki,150,4.5,14.0,9.0,1.0,25g,Healthy snacks,vegetarian,Snacks,compact energy snack
+F133,Til Laddu,130,3.0,10.0,9.0,1.5,1 piece (25g),Healthy snacks,vegetarian,Snacks,calcium and energy support
+F134,Sattu Drink,120,6.0,18.0,3.0,4.0,1 glass (250ml),Healthy Drinks,vegan,Snacks,hydrating protein drink
+F135,Masala Buttermilk,45,2.0,5.0,1.5,0.0,1 glass (240ml),Healthy Drinks,vegetarian,Lunch,digestive hydration support
+F136,Ragi Malt,190,5.0,34.0,4.0,3.5,1 glass (250ml),Healthy Drinks,vegetarian,Breakfast,calcium and sustained energy
+F137,Boiled Chickpeas,164,9.0,27.0,2.6,7.6,100g,Protein Foods,vegan,Snacks,protein and fiber rich
+F138,Boiled Green Gram,105,7.0,19.0,0.4,4.0,100g,Protein Foods,vegan,Snacks,light protein snack
+F139,Tofu Stir Fry,190,14.0,8.0,11.0,3.0,1 plate (180g),Protein Foods,vegan,Dinner,plant protein for recovery
+F140,Tofu Salad,170,13.0,7.0,10.0,3.0,1 bowl (170g),Protein Foods,vegan,Lunch,lean vegan protein option
+F141,Paneer Cubes,265,18.0,4.0,20.0,0.0,100g,Protein Foods,vegetarian,Snacks,high-protein snack option
+F142,Boiled Potato Chaat,150,3.0,28.0,3.0,3.0,1 cup (150g),Snacks,vegan,Snacks,affordable filling snack
+F143,Vegetable Pulao,280,6.0,45.0,8.0,3.0,1 cup (200g),Indian Home Foods,vegetarian,Lunch,balanced home-style main meal
+F144,Egg Fried Rice Home Style,320,12.0,45.0,10.0,2.0,1 cup (200g),Indian Home Foods,eggetarian,Lunch,protein-enriched rice meal
+F145,Curd Millet Bowl,220,7.0,32.0,6.0,4.0,1 bowl (220g),Fitness Meals,vegetarian,Dinner,gut-friendly balanced dinner
+F146,Vegetable Daliya,210,6.0,36.0,5.0,5.0,1 bowl (220g),Indian Home Foods,vegan,Dinner,fiber-rich whole grain meal

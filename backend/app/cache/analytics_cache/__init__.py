@@ -1,0 +1,2 @@
+﻿# analytics_cache module
+
